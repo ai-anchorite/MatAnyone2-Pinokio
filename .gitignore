@@ -8,25 +8,16 @@ app/results/
 app/_temp_results/
 app/test_sample/
 app/assets/tutorial_*.mp4
-app/pretrained_models/
 app/outputs/
 app/cache/
 app/ui_settings.json
-
-# Legacy paths (hugging_face)
-app/hugging_face/assets/
-app/hugging_face/results/
-app/hugging_face/test_sample/
 
 # Root-level
 results/
 _temp_results/
 test_sample/
-pretrained_models/
-data/
 env/
 outputs/
 cache/
 logs/
-icon.png
 *.egg-info/
