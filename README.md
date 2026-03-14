@@ -1,6 +1,8 @@
 <div align="center">
-
-# MatAnyone 2 — AI Background Removal for Video & Image
+<div style="text-align: center;">
+    <img src="./app/assets/matanyone2_logo.png" alt="MatAnyone Logo" style="height: 52px;">
+ 
+## AI Background Removal for Video & Image
 
 **Remove backgrounds from videos and images with precision AI matting.**
 **Preserves hair, fur, transparency, and fine edges that traditional tools destroy.**
@@ -8,9 +10,13 @@
 [![Install with Pinokio](https://img.shields.io/badge/Install%20with-Pinokio-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJMMiAyMmgyMEwxMiAyeiIvPjwvc3ZnPg==)](https://beta.pinokio.co/apps/github-com-ai-anchorite-matanyone2-pinokio)
 
 </div>
+<p align="center">
+    <img src="app/assets/screenshot.png" alt="App Screenshot" width="540">
+</p>
+<div align="left">
 
 ## What is this?
-
+ 
 This is an enhanced, one-click installable fork of the [MatAnyone 2](https://github.com/pq-yang/MatAnyone2) research project — packaged for creators who want studio-quality matting without the setup headaches.
 
 Drop in a video or image, click a few points to select your subject, and get clean alpha mattes and composited foregrounds back. That's it.
@@ -30,7 +36,7 @@ Drop in a video or image, click a few points to select your subject, and get cle
 
 ## License
 
-This project is built on [MatAnyone 2](https://github.com/pq-yang/MatAnyone2) by S-Lab, NTU and is licensed under the [S-Lab License 1.0](./LICENSE.txt) — **non-commercial use only**. Please respect the original authors' terms. For commercial licensing inquiries, contact the original team directly (see [LICENSE.txt](./LICENSE.txt)).
+This project is built on [MatAnyone 2](https://github.com/pq-yang/MatAnyone2) by S-Lab, NTU and is licensed under the [S-Lab License 1.0](app/LICENSE.txt) — **non-commercial use only**. Please respect the original authors' terms. For commercial licensing inquiries, contact the original team directly (see [LICENSE.txt](app/LICENSE.txt)).
 
 ---
 
