@@ -22,6 +22,13 @@ module.exports = {
           path: "app",
         }
       }
+    },
+
+    {
+      method: "notify",
+      params: {
+        html: "Installation complete! Click Start to run MatAnyone2-Pinokio!."
+      }
     }
   ]
 }
