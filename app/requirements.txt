@@ -1,0 +1,10 @@
+git+https://github.com/facebookresearch/segment-anything.git
+git+https://github.com/cheind/py-thin-plate-spline
+gradio==5.49.1
+fastapi
+ffmpeg-python
+matplotlib
+openmim
+progressbar2
+psutil
+pyyaml

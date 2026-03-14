@@ -1,0 +1,15 @@
+{
+  "title": "MatAnyone2",
+  "description": "Remove backgrounds from videos and images with precision AI matting. Preserves hair, fur, and fine edges. Runs locally on 12GB VRAM — Windows, Linux, and macOS.",
+  "links": [{
+    "title": "Anchorite (Ported and enhanced)",
+    "links": [{
+      "type": "bitcoin",
+      "value": "bc1qxm7g05cykj7d5ct9shzf7vp4cqgaf7f3670wez"
+    }, {
+      "title": "Github",
+      "value": "https://github.com/ai-anchorite"
+    }]
+  }],
+  "posts": []
+}

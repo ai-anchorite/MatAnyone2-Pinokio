@@ -1,0 +1,27 @@
+module.exports = {
+  run: [
+
+    {
+      method: "shell.run",
+      params: {
+        venv: "env",
+        path: "app",
+        message: [
+          "uv pip install -e .",
+          "uv pip install -r requirements.txt"
+        ]
+      }
+    },
+
+    {
+      method: "script.start",
+      params: {
+        uri: "torch.js",
+        params: {
+          venv: "env",
+          path: "app",
+        }
+      }
+    }
+  ]
+}
