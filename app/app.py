@@ -1201,8 +1201,8 @@ with gr.Blocks(theme=get_theme_from_settings(), css=my_custom_css) as demo:
                             remove_mask_button = gr.Button(value="Remove Mask", interactive=True, visible=False, elem_classes="new_button", min_width=100)
                             matting_button = gr.Button(value="Video Matting", interactive=True, visible=False, elem_classes="green_button", min_width=100)
                         with gr.Row():                            
-                            video_processing_status = gr.Textbox(label="", show_label=False, container=False, interactive=False, max_lines=2, visible=True, elem_classes="status-textbox",
-                                placeholder="Upload a video → click Load Video → click frame to place mask points → Add Mask → Video Matting. Use Processing Resolution to reduce VRAM.")
+                            video_processing_status = gr.Textbox(label="", show_label=False, container=False, interactive=False, visible=True, elem_classes="status-textbox",
+                                placeholder="Upload a video → set resolution if required → click Load Video.")
                             
                 gr.HTML('<hr style="border: none; height: 1.5px; background: linear-gradient(to right, #a566b4, #74a781);margin: 5px 0;">')
 
@@ -1314,7 +1314,7 @@ with gr.Blocks(theme=get_theme_from_settings(), css=my_custom_css) as demo:
                             matting_button = gr.Button(value="Image Matting", interactive=True, visible=False, elem_classes="green_button", min_width=100)
                         with gr.Row():                            
                             image_processing_status = gr.Textbox(label="", show_label=False, container=False, interactive=False, max_lines=2, visible=True, elem_classes="status-textbox",
-                                placeholder="Upload an image → click Load Image → click image to place mask points → Add Mask → Image Matting. Use Processing Resolution to reduce VRAM.")
+                                placeholder="Upload an image → set resolution if required → click Load Image.")
 
                 gr.HTML('<hr style="border: none; height: 1.5px; background: linear-gradient(to right, #a566b4, #74a781);margin: 5px 0;">')
 
