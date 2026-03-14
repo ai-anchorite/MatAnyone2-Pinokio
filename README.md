@@ -5,7 +5,7 @@
 **Remove backgrounds from videos and images with precision AI matting.**
 **Preserves hair, fur, transparency, and fine edges that traditional tools destroy.**
 
-[![Install with Pinokio](https://img.shields.io/badge/Install%20with-Pinokio-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJMMiAyMmgyMEwxMiAyeiIvPjwvc3ZnPg==)](https://pinokio.computer/item?uri=https://github.com/ai-anchorite/MatAnyone2)
+[![Install with Pinokio](https://img.shields.io/badge/Install%20with-Pinokio-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJMMiAyMmgyMEwxMiAyeiIvPjwvc3ZnPg==)](https://beta.pinokio.co/apps/github-com-ai-anchorite-matanyone2-pinokio)
 
 </div>
 
@@ -19,7 +19,8 @@ Drop in a video or image, click a few points to select your subject, and get cle
 
 - **VRAM:** 12 GB minimum (NVIDIA, Apple Silicon, or compatible GPU)
 - **Platform:** Windows · Linux · macOS
-- **Install:** One click via [Pinokio]([https://beta.pinokio.co/item?uri=https://github.com/ai-anchorite/MatAnyone2-Pinokio](https://beta.pinokio.co/apps/github-com-ai-anchorite-matanyone2-pinokio) — handles Python, dependencies, and model downloads automatically
+- **Install:** One click via [Pinokio](https://beta.pinokio.co/apps/github-com-ai-anchorite-matanyone2-pinokio)
+ — handles Python, dependencies, and model downloads automatically
 
 ## Getting Started
 
