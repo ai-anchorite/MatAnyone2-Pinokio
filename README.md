@@ -19,7 +19,7 @@ Drop in a video or image, click a few points to select your subject, and get cle
 
 - **VRAM:** 12 GB minimum (NVIDIA, Apple Silicon, or compatible GPU)
 - **Platform:** Windows · Linux · macOS
-- **Install:** One click via [Pinokio](https://pinokio.computer/item?uri=https://github.com/ai-anchorite/MatAnyone2-Pinokio) — handles Python, dependencies, and model downloads automatically
+- **Install:** One click via [Pinokio](https://beta.pinokio.co/item?uri=https://github.com/ai-anchorite/MatAnyone2-Pinokio) — handles Python, dependencies, and model downloads automatically
 
 ## Getting Started
 
