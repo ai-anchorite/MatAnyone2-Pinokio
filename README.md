@@ -23,7 +23,7 @@ Drop in a video or image, click a few points to select your subject, and get cle
 
 ## 🖥️ Requirements
 
-- **VRAM:** 12 GB minimum (NVIDIA, Apple Silicon, or compatible GPU)
+- **VRAM:** 12 GB minimum (NVIDIA, Apple Silicon, or compatible AMD GPU)
 - **Platform:** Windows · Linux · macOS
 - **Install:** One click via [Pinokio](https://beta.pinokio.co/apps/github-com-ai-anchorite-matanyone2-pinokio)
  — handles Python, dependencies, and model downloads automatically
