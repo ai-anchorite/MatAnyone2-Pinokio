@@ -53,14 +53,14 @@ def get_root_logger(logger_name='basicsr', log_level=logging.INFO, log_file=None
     return logger
 
 
-IS_HIGH_VERSION = [int(m) for m in list(re.findall(r"^([0-9]+)\.([0-9]+)\.([0-9]+)([^0-9][a-zA-Z0-9]*)?(\+git.*)?$",\
-    torch.__version__)[0][:3])] >= [1, 12, 0]
+_ver_match = re.match(r"^(\d+)\.(\d+)\.(\d+)", torch.__version__)
+IS_HIGH_VERSION = ([int(m) for m in _ver_match.groups()] >= [1, 12, 0]) if _ver_match else True
 
 def gpu_is_available():
     if IS_HIGH_VERSION:
-        if torch.backends.mps.is_available():
+        if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
             return True
-    return True if torch.cuda.is_available() and torch.backends.cudnn.is_available() else False
+    return torch.cuda.is_available()
 
 def get_device(gpu_id=None):
     if gpu_id is None:
@@ -71,9 +71,9 @@ def get_device(gpu_id=None):
         raise TypeError('Input should be int value.')
 
     if IS_HIGH_VERSION:
-        if torch.backends.mps.is_available():
+        if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
             return torch.device('mps'+gpu_str)
-    return torch.device('cuda'+gpu_str if torch.cuda.is_available() and torch.backends.cudnn.is_available() else 'cpu')
+    return torch.device('cuda'+gpu_str if torch.cuda.is_available() else 'cpu')
 
 
 def set_random_seed(seed):

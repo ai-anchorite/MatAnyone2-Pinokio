@@ -11,6 +11,7 @@ app/assets/tutorial_*.mp4
 app/outputs/
 app/cache/
 app/ui_settings.json
+app/pretrained_models/
 
 # Root-level
 results/

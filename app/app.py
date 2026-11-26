@@ -906,7 +906,8 @@ if torch.cuda.is_available():
 elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
     _gpu_name = "Apple MPS"
 _print_action("🖥️ ", f"Device: {args.device}  |  GPU: {_gpu_name}")
-_print_action("🐍", f"PyTorch {torch.__version__}  |  CUDA {torch.version.cuda or 'N/A'}")
+_backend_str = f"ROCm {torch.version.hip}" if getattr(torch.version, "hip", None) else f"CUDA {torch.version.cuda or 'N/A'}"
+_print_action("🐍", f"PyTorch {torch.__version__}  |  {_backend_str}")
 print()
 sam_checkpoint_url_dict = {
     'vit_h': "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth",

@@ -5,7 +5,9 @@ module.exports = {
       method: "shell.run",
       params: {
         venv: "env",
-        env: {},
+        env: {
+          MIOPEN_LOG_LEVEL: "3"
+        },
         path: "app",
         message: [
           "python app.py --port {{port}}",
